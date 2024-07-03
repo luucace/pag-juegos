@@ -1,0 +1,22 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 200px;
+}
+
+.form-input {
+    padding: 20px 10px;
+    margin: 10px 20px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    font-size: 17px;
+
+}
+
+.form-input::placeholder {
+    color: var(--primary);
+}

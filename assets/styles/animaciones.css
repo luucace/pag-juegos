@@ -1,0 +1,38 @@
+
+/* BOTONES */
+.btn-1:hover {
+    background-color: var(--text);
+}
+
+.navbar-links a:hover {
+    color: var(--text);
+}
+
+/* Carrito navbar */
+.carrito:active {
+    color: var(--secondary);
+}
+
+/* Juegos populares */
+
+.juegos-populares:hover {
+    transform: translateY(-10px);
+
+}
+
+/* Footer */
+
+/* REDES */
+.icon:hover {
+    color: var(--text);
+    transform: translateY(-10px);
+
+}
+
+/* FOOTER TEXTO */
+
+.menu-icon:hover {
+    color: var(--text);
+    text-decoration: underline;
+    opacity: 1;
+}

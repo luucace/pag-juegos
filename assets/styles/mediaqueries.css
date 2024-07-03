@@ -1,0 +1,28 @@
+
+
+/* Media query para pantallas de 992px o menos */
+@media (max-width: 992px) {
+    
+    #Inicio {
+        flex-direction: column;
+        gap: 30px;
+        
+    }
+
+    .juegos-populares {
+        flex: 1 1 35%;
+        width: auto;
+    }
+
+    .active {
+        display: none;
+    }
+
+    .product-content {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    }
+}
+
+
+
