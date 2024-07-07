@@ -25,4 +25,9 @@
 }
 
 
+@media (max-width: 450px) {
+    .product-content {
+        width: 80%;
+    }
+}
 
