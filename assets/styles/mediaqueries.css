@@ -31,8 +31,9 @@
         order: 2;
     }
 
+    
     #menu-toggle:checked + .navbar-list {
-    display: flex;
+        display: flex;
     }
 
 
