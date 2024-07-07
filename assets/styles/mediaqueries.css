@@ -2,11 +2,44 @@
 
 /* Media query para pantallas de 992px o menos */
 @media (max-width: 992px) {
-    
+    /* menu */
+    .navbar {
+        gap: 30px;
+    }
+
+    .navbar-list {
+        position: absolute;
+        top: 65px;
+        left: 5%;
+        right: 5%;
+        flex-direction: column;
+        width: 90%;
+        background-color: var(--fondo);
+        padding: 45px 0;
+        border: 2px solid var(--detalles);
+        border-top: 0;
+        border-radius: 0 0 15px 15px;
+        display: none;
+    }
+
+    .navbar-list a {
+        font-size: 18px;
+    }
+
+    .menu-label {
+        display: flex;
+        order: 2;
+    }
+
+    #menu-toggle:checked + .navbar-list {
+    display: flex;
+    }
+
+
     #Inicio {
         flex-direction: column;
         gap: 30px;
-        
+
     }
 
     .juegos-populares {
@@ -22,8 +55,8 @@
     grid-template-columns: 1fr;
     gap: 20px;
     }
-}
 
+}
 
 @media (max-width: 450px) {
     .product-content {

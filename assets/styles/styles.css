@@ -67,11 +67,22 @@ img {
     font-weight: 300;
 }
 
+#menu-toggle {
+    display: none;
+}
+
+
 .carrito {
     color: var(--textp);
     font-size: 16px;
     cursor: pointer;
     transition: 0.5s;
+}
+#cart-toggle {
+    display: none;
+}
+#cart-toggle:checked + .carrito {
+    display: flex;
 }
 
 main {
