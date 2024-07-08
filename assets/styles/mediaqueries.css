@@ -9,7 +9,7 @@
 
     .navbar-list {
         position: absolute;
-        top: 65px;
+        top: 150px;
         left: 5%;
         right: 5%;
         flex-direction: column;

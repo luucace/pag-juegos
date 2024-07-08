@@ -58,7 +58,6 @@ img {
     align-items: center;
     justify-content: center;
     gap: 40px;
-    
 }
 
 .navbar-links a{
@@ -71,8 +70,12 @@ img {
     display: none;
 }
 
+.menu-label {
+    display: none;
+}
 
-.carrito {
+
+.ubicacion {
     color: var(--textp);
     font-size: 16px;
     cursor: pointer;
