@@ -2,6 +2,13 @@
 
 /* Media query para pantallas de 992px o menos */
 @media (max-width: 992px) {
+    body{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+    
+
     /* menu */
     .navbar {
         gap: 30px;
@@ -36,7 +43,10 @@
         display: flex;
     }
 
-
+    .mapa {
+        height: 100vh;
+        
+    }
     #Inicio {
         flex-direction: column;
         gap: 30px;
@@ -57,7 +67,14 @@
     gap: 20px;
     }
 
+    /* footer */
+    .menu-elemt {
+        display: flex;
+        flex-direction: column;
+    }
 }
+
+
 
 @media (max-width: 450px) {
     .product-content {
