@@ -11,7 +11,7 @@
 
     .navbar-list {
         position: absolute;
-        top: 150px;
+        top: 80px;
         left: 5%;
         right: 5%;
         flex-direction: column;
@@ -40,7 +40,6 @@
 
     .mapa {
         height: 100vh;
-        
     }
     #Inicio {
         flex-direction: column;
