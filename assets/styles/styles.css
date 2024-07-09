@@ -87,10 +87,6 @@ img {
     display: none;
 }
 
-/* #cart-toggle:checked + .mapa {
-    display: flex;
-    transform: translate(0);
-} */
 
 .mapa {
     position: absolute;
@@ -118,10 +114,14 @@ img {
     justify-content: center;
     gap: 30px;
     margin-bottom: 15px;
-    background: linear-gradient(var(--secondary), var(--text));
+}
+span,
+.mapa-item h2 {
+    background: linear-gradient(var(--secondary), var(--primary));
     color: transparent;
     background-clip: text;
 }
+
 
 #cart-toggle:checked + .mapa {
     display: flex;
